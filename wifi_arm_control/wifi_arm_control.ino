@@ -74,18 +74,18 @@ struct PID {
 PID servoPID[6] = {
   /*  Servo-1  */ { 0.8, 0.0, 0.01 },
 
-  /*  Servo-2  */ { 0.1, 0.01, 0.02 },
+  /*  Servo-2  */ { 0.4, 0.0, 0.01 },
 
-  /*  Servo-3  */ { 0.2, 0.8, 0.01 },
+  /*  Servo-3  */ { 0.4, 0.0, 0.008 },
 
-  /*  Servo-4  */ { 0.2, 0.02, 0.01 },
+  /*  Servo-4  */ { 0.4, 0.0, 0.004 },
 
-  /*  Servo-5  */ { 0.2, 0.0, 0.01 },
+  /*  Servo-5  */ { 0.4, 0.0, 0.01 },
 
-  /*  Servo-6  */ { 0.2, 0.08, 0.0001 }
+  /*  Servo-6  */ { 0.4, 0.0, 0.004 }
 };
 
-//dt dinamik yapılmadan önceki değerler
+//dt dinamik ve hedef sapması değişmeden önceki değerler
 // PID servoPID[6] = {
 //   /*  Servo-1  */ { 0.8, 0.0, 0.01 },
 

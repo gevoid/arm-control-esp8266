@@ -1,4 +1,5 @@
 // pid zamanı gelmiş mi bakar , gerekli hesaplamaları ve komutları yürütür
+unsigned long lastCommandIndexIncrease = 0;
 void pidCheck(unsigned long now){
    if (now - lastPIDTime >= pidInterval) {
     lastPIDTime = now;
@@ -22,7 +23,11 @@ void pidCheck(unsigned long now){
 
         updateServosWithPIDMicros();
         if (allReached) {
-          currentCommandIndex++;
+          if(now-lastCommandIndexIncrease >= 200){
+            lastCommandIndexIncrease = now;
+            currentCommandIndex++;
+          }
+          
           // delay(200);  // geçiş efekti
         }
 
@@ -82,7 +87,7 @@ void updateServosWithPIDMicros() {
 // servolar hedef açılarda mı kontrol eder
 bool areServosAtTarget() {
   for (int i = 0; i < 6; i++) {
-    if (abs(servoTargetAnglesMicroSeconds[i] - servoAnglesMicroSeconds[i]) > 5) {
+    if (abs(servoTargetAnglesMicroSeconds[i] - servoAnglesMicroSeconds[i]) > 2) {
       Serial.println("Servo: "+String(i+1) +" Hedefe ulaşamıyor");
       return false;
     }
