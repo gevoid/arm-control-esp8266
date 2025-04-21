@@ -1,10 +1,8 @@
 6-dof robot arm control via mobile app with esp8266.
 
-![Screenshot_20250420-212949](https://github.com/user-attachments/assets/5fb1a6e6-06f5-45fe-8b50-967e5e658492)
-![Ekran görüntüsü 2025-04-21 145615](https://github.com/user-attachments/assets/6baddffc-07d7-492f-a66f-dd28160615bc)
-![Screenshot_20250420-214225](https://github.com/user-attachments/assets/b446ce8f-895c-44df-9e69-a450839726ca)
-![Screenshot_20250420-213038](https://github.com/user-attachments/assets/c4ffcc28-006f-49ad-a7dd-eef87ce61a78)
-![Screenshot_20250420-213030](https://github.com/user-attachments/assets/d1a6027e-79c2-4783-8a20-460b1fbd656d)
-![Screenshot_20250420-213021](https://github.com/user-attachments/assets/521898e4-6d61-46e0-b509-3768f33a9ad6)
-
-
+![Ekran görüntüsü 2025-04-21 145615](https://github.com/user-attachments/assets/4a7bb4b6-f03b-4951-82f9-1fe123db3b48)
+![Screenshot_20250420-212949](https://github.com/user-attachments/assets/ea278692-b123-4dc1-b35f-10e0a9cbec4f)
+![Screenshot_20250420-214225](https://github.com/user-attachments/assets/6a2e33e5-600a-48a7-9474-eb6251bd0e50)
+![Screenshot_20250420-213021](https://github.com/user-attachments/assets/0bbabd5f-692c-4246-9ea6-772450100b01)
+![Screenshot_20250420-213030](https://github.com/user-attachments/assets/21a3f6db-855c-4088-a7cc-65c570f0406c)
+![Screenshot_20250420-213038](https://github.com/user-attachments/assets/57e746af-182b-4120-8a9b-42c3409d57b9)
