@@ -20,10 +20,9 @@
 
 
 ///////////////////////////////////////  Web server  değişkenleri ve ip sabitleme /////////////////////////////////////////////////
-// const char *ssid = "GVD";            // bağlanılacak wifi aği adı
-// const char *password = "gevoid010";  // bağlanılacak wifi şifresi
-const char *ssid = "FiberHGW_ZTYY55_2.4GHz";  // bağlanılacak wifi aği adı
-const char *password = "HfaF9NEPxy";          // bağlanılacak wifi şifresi
+const char *ssid = "GVD";            // bağlanılacak wifi aği adı
+const char *password = "123somePass";  // bağlanılacak wifi şifresi
+
 
 IPAddress local_IP(192, 168, 1, 184);         // Cihazın sabit IP adresi
 IPAddress gateway(192, 168, 1, 1);            // Ağ geçidi (genellikle router IP'si)
